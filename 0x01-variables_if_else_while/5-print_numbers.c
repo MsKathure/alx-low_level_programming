@@ -1,20 +1,17 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
- *
- * Return: Always 0.
+ *main-program entry point.
+ *Return:0 no error, non zero if error
  */
-
 int main(void)
 {
-	int n;
+	char i;
 
-	for (n=0; n<=9; n++)
-		{
-			printf("%d", n);
-		}
-	printf("\n");
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }
