@@ -10,8 +10,8 @@ size_t print_list(const list_t *h);
 /**
   * struct list_s - stringly linked list
   * @str: string (malloced string)
-  * len: string length
-  *@next: pointer to the next node
+  * @len: string length
+  * @next: pointer to the next node
   */
 
 typedef struct list_s
